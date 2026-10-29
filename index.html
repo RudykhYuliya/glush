@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Крипта</title>
+<title>Глушь</title>
 <style>
   html, body {
     margin: 0;
@@ -980,7 +980,7 @@
     if (kind === 'none' || kind === panelKind) return;
     panelKind = kind;
     const html = {
-      menu: '<div class="copy"><h1>КРИПТА</h1>'
+      menu: '<div class="copy"><h1>ГЛУШЬ</h1>'
         + '<p>Темный шутер от первого лица. Стены яркие и близко. Дальше свет кончается.</p>'
         + '<ul>'
         + '<li>WASD - идти. Считается позиция клавиш, не буквы.</li>'
@@ -993,7 +993,7 @@
         + '<button type="button">ВОЙТИ</button>',
       pause: '<h1>ПАУЗА</h1><p>Кликни по экрану, чтобы снова взять мышь.</p><button type="button">ДАЛЬШЕ</button>',
       dead: '<h1>ТЕБЯ НАШЛИ</h1><p>Этаж тот же. Они снова на местах.</p><button type="button">ЕЩЕ РАЗ</button>',
-      won: '<h1>КРИПТА ОТПУСТИЛА</h1><p>Три этажа позади. Свет снаружи ничуть не добрее.</p><button type="button">СНАЧАЛА</button>',
+      won: '<h1>ГЛУШЬ ОТПУСТИЛА</h1><p>Три этажа позади. Свет снаружи ничуть не добрее.</p><button type="button">СНАЧАЛА</button>',
     };
     panelEl.innerHTML = html[kind];
     panelEl.querySelector('button').addEventListener('click', function (e) {
